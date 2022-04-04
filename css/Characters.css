@@ -81,6 +81,18 @@ body{
   border: 5px black solid;
 }
 .throw, table{
-  position: absolute;
-  left: 1;
+  position: relative;
+  width: 90%;
+}
+.movetable{
+  max-width: 500px;
+  margin: auto;
+}
+.pic{
+  position: fixed;
+  left: 0;
+}
+.pic2{
+  position: fixed;
+  right: 0;
 }

@@ -3,7 +3,7 @@
 <head> 
 <Title>Tekken 7 Characters</Title>
     <meta charset = "utf-8" /> 
-  <link rel="stylesheet" type="text/css" href="../css/hem.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/viktigt.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap" rel="stylesheet">
 </head> 
 
@@ -14,12 +14,42 @@
     <a href="About.html">About</a>
     <a href="Feedback.html">Newsletter</a>   
     <a href="../html/Viktigt.html">VIKTIG INFORMATION!!!!</a>
-    <a class="navbar-brand" href="../img/Logo.png">
-      <div class="logo-image">
-     <img  class="img-fluid" src="../img/Logo.png"></a>
-      </div>
   </div>
-  <div class="Shhh">
-<img class="NotSus" href="../img/NotSus.gif" alt="NotSus">
+  
+<div class="AbsolutelySafe">
+<audio autoplay controls>
+  <source src="https://ia800605.us.archive.org/8/items/NeverGonnaGiveYouUp/jocofullinterview41.mp3" type="audio/mpeg" >
+  Your browser does not support the audio tag.
+</div>
+<div class="AbsolutelySafe">
+   </audio>
+ <audio autoplay controls>
+  <source src="https://ia803408.us.archive.org/31/items/among-us-trap-remix-bass-boosted-leonz/Among%20Us%20Trap%20Remix%20Bass%20Boosted%20Leonz.mp3" type="audio/mpeg" >
+  Your browser does not support the audio tag.
+ </audio>
+
+<button id="ASong" onClick="playPause()">
+  <audio
+    src="https://ia800605.us.archive.org/8/items/NeverGonnaGiveYouUp/jocofullinterview41.mp3"
+    autoplay
+    loop
+  ></audio>
+  CLICK FOR FREE BITCOIN!!!
+</button>
+
+<script>
+  var aud = document.getElementById("ASong").children[0];
+  var isPlaying = false;
+  aud.pause();
+
+  function playPause() {
+    if (isPlaying) {
+      aud.pause();
+    } else {
+      aud.play();
+    }
+    isPlaying = !isPlaying;
+  }
+</script>'
 </div>
 </body></html>
