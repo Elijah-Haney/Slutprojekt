@@ -11,14 +11,14 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 200px;
+  font-size: 50px;
   background-color: gray;
-  border: inset 20px black;
+  border: inset 5px black;
 }
 .topnav {
   background-color: #333;
   overflow: hidden;
-  position: fixed;
+  position: sticky;
 }
 
 /* Style the links inside the navigation bar */
@@ -40,7 +40,7 @@ body{
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: blueviolet;
   color: white;
 }
 

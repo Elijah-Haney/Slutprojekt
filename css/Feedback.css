@@ -40,7 +40,7 @@ body{
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: blueviolet;
     color: white;
   }
   
@@ -246,4 +246,10 @@ input[type="radio"] {
 
 .error {
 	color: #dc3545;
+}
+.Lorem{
+	background-color: #0405a5;
+	color: white;
+	font-size: 20px;
+	text-align: center;
 }
